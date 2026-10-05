@@ -1,0 +1,206 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:39+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: iot_oca
+#: model:ir.model.fields,field_description:iot_oca.field_iot_device__action_ids
+msgid "Action"
+msgstr "Дія"
+
+#. module: iot_oca
+#: model:ir.model.fields,field_description:iot_oca.field_iot_device__action_count
+msgid "Action Count"
+msgstr "Кількість дій"
+
+#. module: iot_oca
+#: model_terms:ir.ui.view,arch_db:iot_oca.iot_device_form
+#: model_terms:ir.ui.view,arch_db:iot_oca.iot_system_form
+msgid "Actions"
+msgstr "Дії"
+
+#. module: iot_oca
+#: model:ir.model.fields,field_description:iot_oca.field_iot_device__active
+#: model_terms:ir.ui.view,arch_db:iot_oca.iot_device_search
+msgid "Active"
+msgstr "Активний"
+
+#. module: iot_oca
+#: model:ir.model.fields,field_description:iot_oca.field_iot_device__color
+msgid "Color"
+msgstr "Колір"
+
+#. module: iot_oca
+#: model:ir.model.fields,field_description:iot_oca.field_iot_device_tag__color
+msgid "Color Index"
+msgstr "Індекс кольору"
+
+#. module: iot_oca
+#: model:ir.ui.menu,name:iot_oca.iot_configuration_menu
+msgid "Configuration"
+msgstr "Конфігурація"
+
+#. module: iot_oca
+#: model:ir.model.fields,field_description:iot_oca.field_iot_communication_system__create_uid
+#: model:ir.model.fields,field_description:iot_oca.field_iot_communication_system_action__create_uid
+#: model:ir.model.fields,field_description:iot_oca.field_iot_device__create_uid
+#: model:ir.model.fields,field_description:iot_oca.field_iot_device_action__create_uid
+#: model:ir.model.fields,field_description:iot_oca.field_iot_device_group__create_uid
+#: model:ir.model.fields,field_description:iot_oca.field_iot_device_tag__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: iot_oca
+#: model:ir.model.fields,field_description:iot_oca.field_iot_communication_system__create_date
+#: model:ir.model.fields,field_description:iot_oca.field_iot_communication_system_action__create_date
+#: model:ir.model.fields,field_description:iot_oca.field_iot_device__create_date
+#: model:ir.model.fields,field_description:iot_oca.field_iot_device_action__create_date
+#: model:ir.model.fields,field_description:iot_oca.field_iot_device_group__create_date
+#: model:ir.model.fields,field_description:iot_oca.field_iot_device_tag__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: iot_oca
+#: model_terms:ir.ui.view,arch_db:iot_oca.iot_device_kanban
+msgid "Delete"
+msgstr "Видалити"
+
+#. module: iot_oca
+#: model:ir.model.fields,field_description:iot_oca.field_iot_communication_system__device_ids
+#: model:ir.model.fields,field_description:iot_oca.field_iot_device_action__device_id
+msgid "Device"
+msgstr "Пристрій"
+
+#. module: iot_oca
+#: model:ir.actions.act_window,name:iot_oca.iot_device_group_act_window
+#: model:ir.ui.menu,name:iot_oca.iot_device_group_menu
+msgid "Device Group"
+msgstr "Група пристроїв"
+
+#. module: iot_oca
+#: model:ir.actions.act_window,name:iot_oca.iot_device_tag_act_window
+#: model:ir.model,name:iot_oca.model_iot_device_tag
+#: model:ir.ui.menu,name:iot_oca.iot_device_tag_menu
+msgid "Device Tag"
+msgstr "Тег пристрою"
+
+#. module: iot_oca
+#: model:ir.ui.menu,name:iot_oca.iot_device_menu
+#: model_terms:ir.ui.view,arch_db:iot_oca.iot_system_form
+msgid "Devices"
+msgstr "Пристрої"
+
+#. module: iot_oca
+#: model:ir.model.fields,field_description:iot_oca.field_iot_communication_system__display_name
+#: model:ir.model.fields,field_description:iot_oca.field_iot_communication_system_action__display_name
+#: model:ir.model.fields,field_description:iot_oca.field_iot_device__display_name
+#: model:ir.model.fields,field_description:iot_oca.field_iot_device_action__display_name
+#: model:ir.model.fields,field_description:iot_oca.field_iot_device_group__display_name
+#: model:ir.model.fields,field_description:iot_oca.field_iot_device_tag__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: iot_oca
+#: model:ir.model.fields.selection,name:iot_oca.selection__iot_device_action__status__failed
+msgid "Failed"
+msgstr "Невдалі"
+
+#. module: iot_oca
+#: model:ir.model.fields,field_description:iot_oca.field_iot_device__group_id
+#: model_terms:ir.ui.view,arch_db:iot_oca.iot_device_search
+msgid "Group"
+msgstr "Група"
+
+#. module: iot_oca
+#: model:ir.model.fields,field_description:iot_oca.field_iot_device__icon
+msgid "Icon"
+msgstr "Іконка"
+
+#. module: iot_oca
+#: model:ir.model.fields,field_description:iot_oca.field_iot_device__image_1920
+msgid "Image"
+msgstr "Зображення"
+
+#. module: iot_oca
+#: model:ir.model.fields,field_description:iot_oca.field_iot_device__image_1024
+msgid "Image 1024"
+msgstr "Зображення 1024"
+
+#. module: iot_oca
+#: model:ir.model.fields,field_description:iot_oca.field_iot_device__image_128
+msgid "Image 128"
+msgstr "Зображення 128"
+
+#. module: iot_oca
+#: model:ir.model.fields,field_description:iot_oca.field_iot_device__image_256
+msgid "Image 256"
+msgstr "Зображення 256"
+
+#. module: iot_oca
+#: model:ir.model.fields,field_description:iot_oca.field_iot_device__image_512
+msgid "Image 512"
+msgstr "Зображення 512"
+
+#. module: iot_oca
+#: model:res.groups,name:iot_oca.group_iot_manager
+msgid "Manager"
+msgstr "Керівник"
+
+#. module: iot_oca
+#: model:ir.model.fields,field_description:iot_oca.field_iot_device__model
+msgid "Model"
+msgstr "Модель"
+
+#. module: iot_oca
+#: model:ir.model.fields,field_description:iot_oca.field_iot_communication_system__name
+#: model:ir.model.fields,field_description:iot_oca.field_iot_communication_system_action__name
+#: model:ir.model.fields,field_description:iot_oca.field_iot_device__name
+#: model:ir.model.fields,field_description:iot_oca.field_iot_device_group__name
+#: model:ir.model.fields,field_description:iot_oca.field_iot_device_tag__name
+msgid "Name"
+msgstr "Назва"
+
+#. module: iot_oca
+#: model:ir.model.fields,field_description:iot_oca.field_iot_device_action__date_ok
+msgid "Ok date"
+msgstr "Дата ОК"
+
+#. module: iot_oca
+#: model:ir.model.fields.selection,name:iot_oca.selection__iot_device_action__status__pending
+msgid "Pending"
+msgstr "Очікують"
+
+#. module: iot_oca
+#: model:ir.model.fields,field_description:iot_oca.field_iot_device_action__result
+msgid "Result"
+msgstr "Результат"
+
+#. module: iot_oca
+#: model:ir.model.fields,field_description:iot_oca.field_iot_device__state
+msgid "State"
+msgstr "Стан"
+
+#. module: iot_oca
+#: model:ir.model.fields,field_description:iot_oca.field_iot_device_action__status
+msgid "Status"
+msgstr "Статус"
+
+#. module: iot_oca
+#: model:ir.ui.menu,name:iot_oca.iot_system_menu
+msgid "Systems"
+msgstr "Системи"
+
+#. module: iot_oca
+#: model:ir.model.fields,field_description:iot_oca.field_iot_device__tag_ids
+msgid "Tag"
+msgstr "Тег"
