@@ -204,3 +204,110 @@ msgstr "Системи"
 #: model:ir.model.fields,field_description:iot_oca.field_iot_device__tag_ids
 msgid "Tag"
 msgstr "Тег"
+
+#. module: iot_oca
+#: model:ir.model.fields,field_description:iot_oca.field_iot_communication_system_action__communication_system_id
+#: model:ir.model.fields,field_description:iot_oca.field_iot_device__communication_system_id
+msgid "Communication System"
+msgstr "Система комунікації"
+
+#. module: iot_oca
+#: model:ir.model.fields,field_description:iot_oca.field_iot_communication_system__communication_system_action_ids
+#: model:ir.model.fields,field_description:iot_oca.field_iot_device_action__communication_system_action_id
+msgid "Communication System Action"
+msgstr "Дія системи комунікації"
+
+#. module: iot_oca
+#: model_terms:ir.ui.view,arch_db:iot_oca.iot_device_kanban
+msgid "Dropdown menu"
+msgstr "Випадне меню"
+
+#. module: iot_oca
+#: model_terms:ir.ui.view,arch_db:iot_oca.iot_device_kanban
+msgid "Edit..."
+msgstr "Редагувати..."
+
+#. module: iot_oca
+#: model_terms:ir.ui.view,arch_db:iot_oca.iot_device_search
+msgid "Group By"
+msgstr "Групувати за"
+
+#. module: iot_oca
+#: model_terms:ir.ui.view,arch_db:iot_oca.iot_device_search
+msgid "Inactive"
+msgstr "Неактивний"
+
+#. module: iot_oca
+#: model:ir.actions.act_window,name:iot_oca.iot_device_action
+msgid "IoT Devices"
+msgstr "Пристрої IoT"
+
+#. module: iot_oca
+#: model:ir.actions.act_window,name:iot_oca.iot_system_action
+msgid "IoT System"
+msgstr "Система IoT"
+
+#. module: iot_oca
+#: model:ir.model.fields,field_description:iot_oca.field_iot_communication_system__write_uid
+#: model:ir.model.fields,field_description:iot_oca.field_iot_communication_system_action__write_uid
+#: model:ir.model.fields,field_description:iot_oca.field_iot_device__write_uid
+#: model:ir.model.fields,field_description:iot_oca.field_iot_device_action__write_uid
+#: model:ir.model.fields,field_description:iot_oca.field_iot_device_group__write_uid
+#: model:ir.model.fields,field_description:iot_oca.field_iot_device_tag__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: iot_oca
+#: model:ir.model.fields,field_description:iot_oca.field_iot_communication_system__write_date
+#: model:ir.model.fields,field_description:iot_oca.field_iot_communication_system_action__write_date
+#: model:ir.model.fields,field_description:iot_oca.field_iot_device__write_date
+#: model:ir.model.fields,field_description:iot_oca.field_iot_device_action__write_date
+#: model:ir.model.fields,field_description:iot_oca.field_iot_device_group__write_date
+#: model:ir.model.fields,field_description:iot_oca.field_iot_device_tag__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: iot_oca
+#: model_terms:ir.ui.view,arch_db:iot_oca.iot_device_kanban
+msgid "Last contact:"
+msgstr "Останній контакт:"
+
+#. module: iot_oca
+#: model:ir.model.fields.selection,name:iot_oca.selection__iot_device_action__status__ok
+msgid "Ok"
+msgstr "Гаразд"
+
+#. module: iot_oca
+#: model_terms:ir.ui.view,arch_db:iot_oca.iot_device_action_list
+msgid "Run"
+msgstr "Запустити"
+
+#. module: iot_oca
+#: model_terms:ir.ui.view,arch_db:iot_oca.iot_device_kanban
+msgid "Unknown device"
+msgstr "Невідомий пристрій"
+
+#. module: iot_oca
+#: model:ir.model.fields.selection,name:iot_oca.selection__iot_device__icon__fa_fa-archive_fa-4x
+msgid "archive"
+msgstr "архів"
+
+#. module: iot_oca
+#: model:ir.model.fields.selection,name:iot_oca.selection__iot_device__icon__fa_fa-desktop_fa-4x
+msgid "desktop"
+msgstr "настільний"
+
+#. module: iot_oca
+#: model:ir.model.fields.selection,name:iot_oca.selection__iot_device__icon__fa_fa-laptop_fa-4x
+msgid "laptop"
+msgstr "ноутбук"
+
+#. module: iot_oca
+#: model:ir.model.fields.selection,name:iot_oca.selection__iot_device__icon__fa_fa-mobile_fa-6x
+msgid "mobile"
+msgstr "мобільний"
+
+#. module: iot_oca
+#: model:ir.model.fields.selection,name:iot_oca.selection__iot_device__icon__fa_fa-television_fa-4x
+msgid "television"
+msgstr "телевізор"
