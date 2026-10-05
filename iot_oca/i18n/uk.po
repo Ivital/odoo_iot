@@ -311,3 +311,13 @@ msgstr "мобільний"
 #: model:ir.model.fields.selection,name:iot_oca.selection__iot_device__icon__fa_fa-television_fa-4x
 msgid "television"
 msgstr "телевізор"
+
+#. module: iot_oca
+#: model_terms:ir.ui.view,arch_db:iot_oca.iot_device_search
+msgid "IoT Device Search"
+msgstr "Пошук пристрою IoT"
+
+#. module: iot_oca
+#: model:ir.model.fields,field_description:iot_oca.field_iot_device__last_contact_date
+msgid "Last Contact Date"
+msgstr "Дата останнього контакту"
