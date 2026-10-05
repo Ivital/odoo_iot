@@ -321,3 +321,43 @@ msgstr "Пошук пристрою IoT"
 #: model:ir.model.fields,field_description:iot_oca.field_iot_device__last_contact_date
 msgid "Last Contact Date"
 msgstr "Дата останнього контакту"
+
+#. module: iot_oca
+#: model:ir.model,name:iot_oca.model_iot_device_action
+msgid "IoT Action"
+msgstr "Дія IoT"
+
+#. module: iot_oca
+#: model:ir.model,name:iot_oca.model_iot_communication_system
+msgid "IoT Communication System"
+msgstr "Система зв’язку IoT"
+
+#. module: iot_oca
+#: model:ir.model,name:iot_oca.model_iot_communication_system_action
+msgid "IoT Communication System action"
+msgstr "Дія системи зв’язку IoT"
+
+#. module: iot_oca
+#: model:ir.model,name:iot_oca.model_iot_device
+msgid "IoT Device"
+msgstr "Пристрій IoT"
+
+#. module: iot_oca
+#: model:res.groups,name:iot_oca.group_iot_user
+msgid "IoT User"
+msgstr "Користувач IoT"
+
+#. module: iot_oca
+#: model:ir.model,name:iot_oca.model_iot_device_group
+msgid "Iot Group"
+msgstr "Група IoT"
+
+#. module: iot_oca
+#: model:res.groups,comment:iot_oca.group_iot_manager
+msgid "Module administrator, able to modify configuration data."
+msgstr "Адміністратор модуля, який може змінювати дані конфігурації."
+
+#. module: iot_oca
+#: model:res.groups,comment:iot_oca.group_iot_user
+msgid "Module user."
+msgstr "Користувач модуля."
